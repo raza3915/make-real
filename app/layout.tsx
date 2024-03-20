@@ -3,13 +3,13 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
-const TITLE = 'make real • tldraw'
-const DESCRIPTION = 'Draw a ui and make it real with tldraw.'
-const TWITTER_HANDLE = '@tldraw'
+const TITLE = 'NeuroSketch Rapid Creation NRCv1'
+const DESCRIPTION = 'Draw and make it real with NRC.'
+//const TWITTER_HANDLE = '@NRC'
 const TWITTER_CARD = 'social-twitter.png'
 const FACEBOOK_CARD = 'social-og.png'
 const THEME_COLOR = '#FFFFFF'
-const SITE_URL = 'https://makereal.tldraw.com'
+const SITE_URL = 'https://nrc.neurosketch.com'
 
 export const metadata: Metadata = {
 	metadataBase: new URL(SITE_URL),
